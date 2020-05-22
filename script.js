@@ -4,7 +4,7 @@ var scores = [0, 0]
 
 var gameOver = false
 var whoseTurn = 0;
-var sum = [7, 56, 73, 85, 146, 273, 292, 448, 337, 103, 184, 460, 458, 154, 339, 117, 369, 450]
+var sum = [7, 56, 73, 85, 146, 273, 292, 448, 337, 103, 184, 460, 458, 154, 339, 117, 369, 450, 401]
 var len = sum.length
 
 var flag = false
@@ -66,7 +66,7 @@ function togglePlayer() {
     document.getElementById('head').innerHTML = players[whoseTurn] + "'s Turn"
 
 }
-//Function ended 
+//Function ended
 
 //Funcion to check the winner
 function winnerCheck() {
